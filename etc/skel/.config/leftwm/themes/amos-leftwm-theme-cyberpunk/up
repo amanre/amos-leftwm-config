@@ -58,9 +58,9 @@ echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
 if [ -x "$(command -v feh)" ]; then
   feh --bg-fill "$SCRIPTPATH"/wallpaper/58.jpg
 fi
-#wal -i ~/.config/leftwm/themes/amos-leftwm-theme-cyberpunk/wallpaper/58.jpg
+wal -i ~/.config/leftwm/themes/amos-leftwm-theme-cyberpunk/wallpaper/58.jpg
 #wal -i ~/.config/leftwm/themes/amos-leftwm-theme-cyberpunk/wallpaper/20.jpg
-wal -i ~/.config/leftwm/themes/amos-leftwm-theme-cyberpunk/wallpaper/3.jpg
+#wal -i ~/.config/leftwm/themes/amos-leftwm-theme-cyberpunk/wallpaper/3.jpg
 #mainbar
 index=0
 monitors=($(polybar -m | sed s/:.*//))

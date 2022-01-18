@@ -139,6 +139,38 @@ version = "0.0.1"
 leftwm_versions = ">0.2.7"
 current = false
 
+[[repos.themes]]
+name = "Sunset"
+repository = "https://github.com/Syudagye/leftwm-sunset"
+commit = "*"
+version = "0.0.1"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "Amber"
+repository = "https://github.com/di-effe/amber"
+commit = "*"
+version = "0.2.2"
+leftwm_versions = ">0.2.10"
+current = false
+
+[[repos.themes]]
+name = "Catppuccin"
+repository = "https://github.com/di-effe/catppuccin"
+commit = "*"
+version = "0.1.1"
+leftwm_versions = ">0.2.10"
+current = false
+
+[[repos.themes]]
+name = "Molese"
+repository = "https://github.com/m0lese/leftwm-config"
+commit = "*"
+version = "1.0.0"
+leftwm_versions = "*"
+current = false
+
 [[repos]]
 url = "localhost"
 name = "LOCAL"
@@ -150,13 +182,26 @@ version = "0.0.0"
 leftwm_versions = "*"
 current = false
 
+[[repos.themes]]
+name = "amos-candy"
+directory = "/home/amanre/.config/leftwm/themes/amos-candy"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "amos-leftwm-theme-cyberpunk"
+directory = "/home/amanre/.config/leftwm/themes/amos-leftwm-theme-cyberpunk"
+version = "0.0.0"
+leftwm_versions = "*"
+current = true
+
 [[repos]]
 url = "https://raw.githubusercontent.com/arcolinux/arcolinux-leftwm-themes/master/known.toml"
 name = "arcolinux"
 
 [[repos.themes]]
 name = "docky"
-directory = "/home/amanre/.config/leftwm/themes/docky"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-docky/"
 commit = "*"
 version = "2.3.2"
@@ -165,7 +210,6 @@ current = false
 
 [[repos.themes]]
 name = "eden"
-directory = "/home/amanre/.config/leftwm/themes/eden"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-eden/"
 commit = "*"
 version = "2.3.2"
@@ -174,7 +218,6 @@ current = false
 
 [[repos.themes]]
 name = "material"
-directory = "/home/amanre/.config/leftwm/themes/material"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-material/"
 commit = "*"
 version = "2.3.2"
@@ -183,7 +226,6 @@ current = false
 
 [[repos.themes]]
 name = "mesh"
-directory = "/home/amanre/.config/leftwm/themes/mesh"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-mesh/"
 commit = "*"
 version = "2.3.2"
@@ -192,7 +234,6 @@ current = false
 
 [[repos.themes]]
 name = "matrix"
-directory = "/home/amanre/.config/leftwm/themes/matrix"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-matrix/"
 commit = "*"
 version = "2.3.2"
@@ -201,7 +242,6 @@ current = false
 
 [[repos.themes]]
 name = "parker"
-directory = "/home/amanre/.config/leftwm/themes/parker"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-parker/"
 commit = "*"
 version = "2.3.2"
@@ -210,7 +250,6 @@ current = false
 
 [[repos.themes]]
 name = "pi"
-directory = "/home/amanre/.config/leftwm/themes/pi"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-pi/"
 commit = "*"
 version = "2.3.2"
@@ -219,7 +258,6 @@ current = false
 
 [[repos.themes]]
 name = "shades"
-directory = "/home/amanre/.config/leftwm/themes/shades"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-shades/"
 commit = "*"
 version = "2.3.2"
@@ -228,7 +266,6 @@ current = false
 
 [[repos.themes]]
 name = "space"
-directory = "/home/amanre/.config/leftwm/themes/space"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-space/"
 commit = "*"
 version = "2.3.2"
@@ -237,7 +274,6 @@ current = false
 
 [[repos.themes]]
 name = "starwars"
-directory = "/home/amanre/.config/leftwm/themes/starwars"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-starwars/"
 commit = "*"
 version = "2.3.2"
@@ -246,7 +282,6 @@ current = false
 
 [[repos.themes]]
 name = "smooth"
-directory = "/home/amanre/.config/leftwm/themes/smooth"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-smooth/"
 commit = "*"
 version = "2.3.2"
@@ -255,16 +290,14 @@ current = false
 
 [[repos.themes]]
 name = "forest"
-directory = "/home/amanre/.config/leftwm/themes/forest"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-forest/"
 commit = "*"
 version = "2.3.2"
 leftwm_versions = "*"
-current = true
+current = false
 
 [[repos.themes]]
 name = "grayblocks"
-directory = "/home/amanre/.config/leftwm/themes/grayblocks"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-grayblocks/"
 commit = "*"
 version = "2.3.2"
@@ -273,7 +306,6 @@ current = false
 
 [[repos.themes]]
 name = "greyblocks"
-directory = "/home/amanre/.config/leftwm/themes/greyblocks"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-greyblocks/"
 commit = "*"
 version = "2.3.2"
@@ -282,7 +314,6 @@ current = false
 
 [[repos.themes]]
 name = "halo"
-directory = "/home/amanre/.config/leftwm/themes/halo"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-halo/"
 commit = "*"
 version = "2.3.2"
@@ -291,7 +322,6 @@ current = false
 
 [[repos.themes]]
 name = "db"
-directory = "/home/amanre/.config/leftwm/themes/db"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-db/"
 commit = "*"
 version = "2.3.2"
@@ -300,7 +330,6 @@ current = false
 
 [[repos.themes]]
 name = "db-scifi-star"
-directory = "/home/amanre/.config/leftwm/themes/db-scifi-star"
 repository = "https://github.com/arcolinux/arcolinux-leftwm-theme-db-scifi-star/"
 commit = "*"
 version = "2.3.2"
@@ -313,7 +342,6 @@ name = "arcolinux-community"
 
 [[repos.themes]]
 name = "doublebar"
-directory = "/home/amanre/.config/leftwm/themes/doublebar"
 repository = "https://github.com/PeterDauwe/doublebar/"
 commit = "*"
 version = "2.3.2"
@@ -322,7 +350,6 @@ current = false
 
 [[repos.themes]]
 name = "db-color-dev"
-directory = "/home/amanre/.config/leftwm/themes/db-color-dev"
 repository = "https://github.com/PeterDauwe/db-color-dev"
 commit = "*"
 version = "2.3.2"
@@ -331,8 +358,15 @@ current = false
 
 [[repos.themes]]
 name = "db-scifi"
-directory = "/home/amanre/.config/leftwm/themes/db-scifi"
 repository = "https://github.com/PeterDauwe/db-scifi"
+commit = "*"
+version = "2.3.2"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "db-labels"
+repository = "https://github.com/PeterDauwe/db-labels"
 commit = "*"
 version = "2.3.2"
 leftwm_versions = "*"
