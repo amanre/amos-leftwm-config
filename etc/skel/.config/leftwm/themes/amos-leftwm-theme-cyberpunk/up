@@ -27,7 +27,7 @@ blueberry-tray &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 volumeicon &
-~/.screenlayout/dualscreen.sh
+#~/.screenlayout/dualscreen.sh
 #conky -c ~/.config/leftwm/system-overview &
 #nitrogen --restore &
 #caffeine &
@@ -56,9 +56,9 @@ echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
 
 # Set background
 if [ -x "$(command -v feh)" ]; then
-  feh --bg-fill "$SCRIPTPATH"/wallpaper/58.jpg
+  feh --bg-fill "$SCRIPTPATH"/wallpapers/Arch.jpg
 fi
-wal -i ~/.config/leftwm/themes/amos-leftwm-theme-cyberpunk/wallpaper/58.jpg
+wal -i ~/.config/leftwm/themes/amos-leftwm-theme-cyberpunk/wallpapers/Arch.jpg
 #wal -i ~/.config/leftwm/themes/amos-leftwm-theme-cyberpunk/wallpaper/20.jpg
 #wal -i ~/.config/leftwm/themes/amos-leftwm-theme-cyberpunk/wallpaper/3.jpg
 #mainbar
