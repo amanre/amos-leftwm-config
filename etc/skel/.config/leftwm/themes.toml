@@ -1,5 +1,5 @@
 [[repos]]
-url = "https://raw.githubusercontent.com/amanre/amos-leftwm-themes/master/known.toml"
+url = "https://github.com/amanre/amos-leftwm-themes/blob/master/known.toml"
 name = "amos"
 definitions_version = 0
 
