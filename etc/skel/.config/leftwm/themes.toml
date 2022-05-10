@@ -1,6 +1,6 @@
 [[repos]]
 url = "https://raw.githubusercontent.com/amanre/amos-leftwm-themes/master/known.toml"
-name = "arcolinux"
+name = "amos"
 definitions_version = 0
 
 [[repos.themes]]
