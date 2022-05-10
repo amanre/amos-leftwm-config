@@ -437,3 +437,4 @@ repository = "https://github.com/amanre/amos-eos-apollo"
 commit = "*"
 version = "2.3.2"
 leftwm_versions = "*"
+current = true
