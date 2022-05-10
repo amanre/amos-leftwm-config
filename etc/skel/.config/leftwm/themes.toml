@@ -10,3 +10,11 @@ commit = "*"
 version = "2.3.2"
 leftwm_versions = "*"
 current = true
+
+[[repos.themes]]
+name = "amos-candy"
+repository = "https://github.com/amanre/amos-candy"
+commit = "*"
+version = "2.3.2"
+leftwm_versions = "*"
+current = true
