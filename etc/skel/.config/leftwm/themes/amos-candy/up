@@ -51,16 +51,12 @@ elif [ -x "$(command -v compton)" ]; then
   compton --config $HOME/.config/leftwm/themes/current/compton.conf &> /dev/null &
 fi
 
+########## This script makes the color of your polybar and terminals#########
+sh $SCRIPTPATH/scripts/wal.sh
+
 # Set the theme.toml config
 echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
 
-# Set background
-#if [ -x "$(command -v feh)" ]; then
- # feh --bg-fill "$SCRIPTPATH"/background1.jpg
-#fi
-#wal -i ~/.config/leftwm/themes/amos-candy/background1.jpg
-wal -i ~/.config/leftwm/themes/amos-candy/background.jpg
-#wal -i ~/.config/leftwm/themes/amos-candy/endeavour-candy.png
 #mainbar
 index=0
 monitors=($(polybar -m | sed s/:.*//))
